@@ -1,0 +1,87 @@
+set surround
+imap jj <Esc>
+Plug 'preservim/nerdtree'
+set commentary
+set tabletop=2
+set shift-width=2
+set NERDTree
+set clipboard=unnamedplus
+
+" which-key
+set which-key
+set notimeout
+
+let g:WhichKey_FontSize = 18
+
+" 어떤 <action>인지 표시 해줍니다.
+" set trackactionids
+
+
+" --------------------
+" KeyMap
+" --------------------
+let mapleader = " "
+
+map <C-h> <C-w>h<CR>
+map <C-l> <C-w>l<CR>
+map <C-k> <C-w>k<CR>
+map <C-j> <C-w>j<CR>
+
+map <C-q> :q<CR>
+
+map <leader>q :q<CR>
+map <leader>w :w<CR>
+map <leader>i <action>(Generate)
+
+" 다음 선택
+map <leader>tn :<action>(SwitcherBackward)
+" 이전 선택
+map <leader>tp :<action>(SwitcherForward)
+
+" 이전
+map <leader>b :<action>(Back)
+
+" --------------------
+" KeyMap: Git
+" --------------------
+nmap <leader>gm :<action>(Git.Menu)
+nmap <leader>gb :<action>(Git.Branches)
+nmap <leader>gl :<action>(Git.Branches.List)
+nmap <leader>gf :<action>(Git.Fetch)
+
+
+nmap <S-h> :bprevious<cr>
+nmap <S-l> :bnext<cr>
+
+" --------------------
+" C-Tab
+" --------------------
+nnoremap <leader><leader> <C-Tab>
+
+" --------------------
+" open ideavimrc file
+" source ideavimrc file
+" --------------------
+map <leader>vs :source ~/.ideavimrc<CR>
+map <leader>vi :e ~/.ideavimrc<CR>
+
+" --------------------
+" Run
+" --------------------
+map <leader>rr <action>(ChooseRunConfiguration)
+map <leader><leader>r <action>(Run)
+map <leader>rd <action>(ChooseDebugConfiguration)
+map <leader>rc <action>(RunConfigurationRedesignedRunConfigurationSelector)
+
+" --------------------
+" Stop
+" --------------------
+map <leader>ss <action>(Stop)
+map <leader>sa <action>(StopAll)
+map <leader><leader>s <action>(Stop)
+
+"hide windows
+map <leader>wh <action>(HideActiveWindow)
+
+"show windows
+map <leader>ws <action>(ShowActiveWindow)
