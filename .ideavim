@@ -50,8 +50,13 @@ nmap <leader>gl :<action>(Git.Branches.List)
 nmap <leader>gf :<action>(Git.Fetch)
 
 
-nmap <S-h> :bprevious<cr>
-nmap <S-l> :bnext<cr>
+"nmap <S-h> :bprevious<cr>
+"nmap <S-l> :bnext<cr>
+
+" 탭 이동
+map <S-l> <Action>(NextTab)
+map <S-h> <Action>(PreviousTab)
+
 
 " --------------------
 " C-Tab
