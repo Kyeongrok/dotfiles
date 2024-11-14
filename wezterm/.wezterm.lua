@@ -8,7 +8,7 @@ local config = {
 
     enable_scroll_bar = true,
     scrollback_lines = 30000,
-
+    default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" },  -- power shell7을 기본으로 설정(설치 필요)
     enable_kitty_graphics = true,
     colors = {
         tab_bar = {
@@ -26,7 +26,6 @@ local config = {
     },
     leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
     keys = {
-        { key = "w", mods = "CTRL",       action = "QuickSelect" },
         { key = "b", mods = "LEADER",     action = wezterm.action({ EmitEvent = "open_in_vim" }) },
         { key = "[", mods = "LEADER",     action = wezterm.action({ EmitEvent = "open_in_vim" }) },
         { key = "-", mods = "CTRL",       action = "DecreaseFontSize" },
