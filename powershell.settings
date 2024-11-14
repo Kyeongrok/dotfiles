@@ -1,0 +1,11 @@
+# New-Item -Path "$PROFILE" -ItemType File -Force # profile 파일 추가
+# replace 'Ctrl+t' and 'Ctrl+r' with your preferred bindings:
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+# example command - use $Location with a different command:
+$commandOverride = [ScriptBlock]{ param($Location) Write-Host $Location }
+
+# pass your override to PSFzf:
+Set-PsFzfOption -AltCCommand $commandOverride
+
+Set-PSReadLineKeyHandler -Chord "Tab" -Function ForwardWord
