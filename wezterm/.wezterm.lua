@@ -4,11 +4,12 @@ local config = {
     color_scheme = "catppuccin-frappe",
     font_size = 14.3,
     cell_width = 1,  -- PragmataPro adjustment
-    line_height = 0.84, -- PragmataPro adjustment
+    line_height = 0.82, -- PragmataPro adjustment
+    initial_rows = 44,
 
     enable_scroll_bar = true,
     scrollback_lines = 30000,
-    default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" },  -- power shell7을 기본으로 설정(설치 필요)
+    default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" },
     enable_kitty_graphics = true,
     colors = {
         tab_bar = {
