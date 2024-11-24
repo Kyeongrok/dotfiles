@@ -10,3 +10,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### Wezterm
 
     mklink %HOMEPATH%\.wezterm.lua %HOMEPATH%\dotfiles\wezterm\wezterm.lua
+
+
+### Oh My Posh
+
+Power Shell을 꾸며주는 기능  
+![image](https://github.com/user-attachments/assets/44fb65a3-e240-48f4-91aa-1a7473fd39ab)
