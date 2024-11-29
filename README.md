@@ -9,7 +9,15 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### Wezterm
 
-    mklink %HOMEPATH%\.wezterm.lua %HOMEPATH%\dotfiles\wezterm\wezterm.lua
+    ```shell
+    mklink %HOMEPATH%\.wezterm.lua %HOMEPATH%\dotfiles\wezterm\.wezterm.lua
+    ```
+
+ex)  
+
+    ```shell
+    mklink .wezterm.lua "c:\Users\Kyeongrok Bot\git\dotfiles\wezterm\.wezterm.lua"
+    ```
 
 
 ### Oh My Posh
