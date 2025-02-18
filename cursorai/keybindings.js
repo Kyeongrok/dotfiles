@@ -18,4 +18,9 @@
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus"
     },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus"
+    },
 ]
