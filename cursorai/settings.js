@@ -31,6 +31,12 @@
                 "workbench.action.toggleSidebarVisibility",
             ]
         },
+        {
+            "before": ["<leader>", "q"],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ]
+        },
     ],
     "editor.fontSize": 18,
 }
