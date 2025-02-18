@@ -12,5 +12,10 @@
     {
         "key": "ctrl+alt+l",
         "command": "editor.action.formatDocument"
-    }
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
 ]
