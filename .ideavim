@@ -29,9 +29,12 @@ map <C-j> <C-w>j<CR>
 
 map <C-q> :q<CR>
 
-map <leader>q :q<CR>
-map <leader>w :w<CR>
+
 map <leader>i <action>(Generate)
+map <leader>w <Action>(CloseActiveEditor)
+map <leader>q <Action>(CloseContent)
+
+
 
 " 다음 선택
 map <leader>tn :<action>(SwitcherBackward)
