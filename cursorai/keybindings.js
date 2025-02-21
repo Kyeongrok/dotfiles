@@ -9,6 +9,11 @@
         "command": "workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
+        {
+        "key": "alt+j",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
     {
         "key": "ctrl+alt+l",
         "command": "editor.action.formatDocument"
