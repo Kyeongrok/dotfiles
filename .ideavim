@@ -51,6 +51,9 @@ nmap <leader>gm :<action>(Git.Menu)
 nmap <leader>gb :<action>(Git.Branches)
 nmap <leader>gl :<action>(Git.Branches.List)
 nmap <leader>gf :<action>(Git.Fetch)
+nmap <leader>gp :<action>(Git.Pull)
+nmap <leader>gt :<action>(Vcs.UpdateProject)
+
 
 
 "nmap <S-h> :bprevious<cr>
