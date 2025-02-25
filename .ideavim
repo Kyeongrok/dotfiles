@@ -7,6 +7,7 @@ set shift-width=2
 set NERDTree
 set clipboard=unnamedplus
 
+
 " which-key
 set which-key
 set notimeout
@@ -15,6 +16,9 @@ let g:WhichKey_FontSize = 18
 
 " 어떤 <action>인지 표시 해줍니다.
 " set trackactionids
+
+" 검색시 대소문자 구분 안함
+set ignorecase
 
 
 " --------------------
