@@ -28,4 +28,45 @@
         "command": "workbench.action.closeActiveEditor",
         "when": "editorTextFocus"
     },
+        {
+        "key": "ctrl+l",
+        "command": "workbench.action.chat.icube.open",
+        "when": "icubeHasChatProvider",
+        "isAIItem": true
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-workbench.action.chat.icube.open",
+        "when": "icubeHasChatProvider"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && isWeb"
+    },
+    {
+        "key": "ctrl+f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && isWeb"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_period",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    }
 ]
