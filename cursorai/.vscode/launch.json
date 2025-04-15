@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+        },
+        {
+            "name": "Check Path",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/print_path.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
