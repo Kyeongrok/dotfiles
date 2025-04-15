@@ -26,6 +26,16 @@
             "commands": ["workbench.action.togglePanel"]
         },
         {
+            "before": [
+                "<leader>",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ]
+        },
+        {
             "before": ["<leader>", "e"],
             "commands": [
                 "workbench.action.toggleSidebarVisibility",
