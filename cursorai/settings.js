@@ -10,6 +10,10 @@
     ],
     "vim.normalModeKeyBindings": [
         {
+            "before": ["<leader>", "r", "r"],
+            "commands": ["workbench.action.debug.selectandstart"]
+        },
+        {
             "before": ["<S-h>"],
             "commands": ["workbench.action.previousEditor"]
         },
