@@ -52,5 +52,29 @@
             ]
         },
     ],
+    "vim.visualModeKeyBindings": [
+      {
+        "before": ["<C-d>"],
+        "commands": [
+          "editorScroll",
+          {
+            "to": "down",
+            "by": "halfPage",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "before": ["<C-u>"],
+        "commands": [
+          "editorScroll",
+          {
+            "to": "up",
+            "by": "halfPage",
+            "value": 0.5
+          }
+        ]
+      }
+    ],
     "editor.fontSize": 18,
 }
