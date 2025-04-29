@@ -68,5 +68,11 @@
         "key": "ctrl+oem_period",
         "command": "-editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
-    }
+    },
+    {
+        "key": "shift shift",
+        "command": "workbench.action.showCommands",
+        "when": "editorTextFocus"
+    } 
+    
 ]
