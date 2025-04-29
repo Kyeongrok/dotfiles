@@ -71,8 +71,8 @@
     },
     {
         "key": "shift shift",
-        "command": "workbench.action.showCommands",
+        // "command": "workbench.action.showCommands",
+        "command": "workbench.action.quickOpen",
         "when": "editorTextFocus"
     } 
-    
 ]
